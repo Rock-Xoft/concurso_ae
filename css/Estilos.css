@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+.prueba {
+text-align: center;}
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to right,#5433FF , #20BDFF);
+    margin: 0;
+    height: 100vh;
+  }
+
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.content {
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 200px;
+    
+    }
+
