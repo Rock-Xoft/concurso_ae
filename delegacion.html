@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -20,15 +21,41 @@
 
       <div class="col-md-12 bg-light rounded">
         <br>
-        <h1 class="display-5 text-center">Modalidad Libre</h1>
+        <h1 class="display-5 text-center">Modalidad Delegación</h1>
         <hr class="bg-dark">
 
         <form action="">
 
           <div class="row form-group">
+            <label for="colegio" class="col-form-label col-md-4 font-weight-bold">Nombre de la I.E:</label>
+            <div class="col-md-8">
+              <input type="text" name="colegio" value="" id="colegio" class="form-control" required>
+            </div>
+
+          </div>
+
+
+          <div class="row form-group ">
+            <label for="Departamento" class="col-form-label col-md-4 font-weight-bold">Gestion:</label>
+            <div class="col-md-8">
+
+              <select name="DEPTO_UBIG" id="cbx_ubigeo" data-name="Provincia" aria-label="Gestion" required=""
+                class="form-control">
+                <option value="" selected="" disabled="" hidden="">Gestion</option>
+                <option value="01">Estatal</option>
+                <option value="02">Particular</option>
+
+
+              </select>
+
+            </div>
+
+          </div>
+
+          <div class="row form-group">
             <label for="dni" class="col-form-label col-md-4 font-weight-bold">DNI:</label>
             <div class="col-md-8">
-              <input type="text" name="dni" value="" id="dni" class="form-control">
+              <input type="text" name="dni" value="" id="dni" class="form-control" required>
             </div>
 
           </div>
@@ -36,7 +63,7 @@
           <div class="row form-group">
             <label for="apellidos_paterno" class="col-form-label col-md-4 font-weight-bold">Apellido Paterno:</label>
             <div class="col-md-8">
-              <input type="text" name="apellidos_paterno" value="" id="apellidos_paterno" class="form-control">
+              <input type="text" name="apellidos_paterno" value="" id="apellidos_paterno" class="form-control" required>
             </div>
 
           </div>
@@ -44,7 +71,7 @@
           <div class="row form-group">
             <label for="apellidos_materno" class="col-form-label col-md-4 font-weight-bold">Apellido Materno:</label>
             <div class="col-md-8">
-              <input type="text" name="apellidos_materno" value="" id="apellidos_materno" class="form-control">
+              <input type="text" name="apellidos_materno" value="" id="apellidos_materno" class="form-control" required>
             </div>
 
           </div>
@@ -52,7 +79,7 @@
           <div class="row form-group">
             <label for="nombres" class="col-form-label col-md-4 font-weight-bold">Nombres:</label>
             <div class="col-md-8">
-              <input type="text" name="nombres" value="" id="nombres" class="form-control">
+              <input type="text" name="nombres" value="" id="nombres" class="form-control" required>
             </div>
 
           </div>
@@ -60,7 +87,7 @@
           <div class="row form-group">
             <label for="email" class="col-form-label col-md-4 font-weight-bold">Email:</label>
             <div class="col-md-8">
-              <input type="email" name="email" value="" id="email" class="form-control">
+              <input type="email" name="email" value="" id="email" class="form-control" required>
             </div>
 
           </div>
@@ -126,13 +153,7 @@
 
           </div>
 
-          <div class="row form-group">
-            <label for="colegio" class="col-form-label col-md-4 font-weight-bold">Colegio de Procedencia:</label>
-            <div class="col-md-8">
-              <input type="text" name="colegio" value="" id="colegio" class="form-control">
-            </div>
 
-          </div>
 
           <div class="row form-group ">
             <label for="Departamento" class="col-form-label col-md-4 font-weight-bold">Nivel:</label>
@@ -189,6 +210,47 @@
           </div>
 
         </form>
+
+
+        <table class="table table-hover">
+          <thead class="thead-dark">
+            <tr>
+              <th>DNI</th>
+              <th>Ape. Paterno</th>
+              <th>Ape. Materno</th>
+              <th>Nombres</th>
+              <th>Email</th>
+              <th>&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="fila-base">
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
+            </tr>
+            <tr class="">
+                <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td>SADADASD</td>
+              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
+            </tr>
+            <tr class="">
+                <td>SADADASD</td>
+                <td>SADADASD</td>
+                <td>SADADASD</td>
+                <td>SADADASD</td>
+                <td>SADADASD</td>
+              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
+            </tr>
+          </tbody>
+        </table>
+
       </div>
     </div>
 
