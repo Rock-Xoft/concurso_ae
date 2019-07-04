@@ -51,47 +51,6 @@
             </div>
 
           </div>
-
-          <div class="row form-group">
-            <label for="dni" class="col-form-label col-md-4 font-weight-bold">DNI:</label>
-            <div class="col-md-8">
-              <input type="text" name="dni" value="" id="dni" class="form-control" required>
-            </div>
-
-          </div>
-
-          <div class="row form-group">
-            <label for="apellidos_paterno" class="col-form-label col-md-4 font-weight-bold">Apellido Paterno:</label>
-            <div class="col-md-8">
-              <input type="text" name="apellidos_paterno" value="" id="apellidos_paterno" class="form-control" required>
-            </div>
-
-          </div>
-
-          <div class="row form-group">
-            <label for="apellidos_materno" class="col-form-label col-md-4 font-weight-bold">Apellido Materno:</label>
-            <div class="col-md-8">
-              <input type="text" name="apellidos_materno" value="" id="apellidos_materno" class="form-control" required>
-            </div>
-
-          </div>
-
-          <div class="row form-group">
-            <label for="nombres" class="col-form-label col-md-4 font-weight-bold">Nombres:</label>
-            <div class="col-md-8">
-              <input type="text" name="nombres" value="" id="nombres" class="form-control" required>
-            </div>
-
-          </div>
-
-          <div class="row form-group">
-            <label for="email" class="col-form-label col-md-4 font-weight-bold">Email:</label>
-            <div class="col-md-8">
-              <input type="email" name="email" value="" id="email" class="form-control" required>
-            </div>
-
-          </div>
-
           <div class="row form-group ">
             <label for="Departamento" class="col-form-label col-md-4 font-weight-bold">Departamento:</label>
             <div class="col-md-8">
@@ -163,14 +122,10 @@
               <select name="DEPTO_UBIG" id="cbx_ubigeo" data-name="Provincia" aria-label="Provincia" required=""
                 class="form-control">
                 <option value="" selected="" disabled="" hidden="">Nivel</option>
-                <option value="01">Amazonas</option>
-                <option value="02">Ancash</option>
-                <option value="03">Apurimac</option>
-                <option value="04">Arequipa</option>
-                <option value="05">Ayacucho</option>
-                <option value="06">Cajamarca</option>
-                <option value="07">Callao</option>
-                <option value="08">Cusco</option>
+                <option value="01">Inicial</option>
+                <option value="02">Primaria</option>
+                <option value="03">Secundaria</option>
+
 
               </select>
 
@@ -200,56 +155,104 @@
 
           </div>
 
+
+
+          <div class="row form-group">
+            <label for="dni" class="col-form-label col-md-4 font-weight-bold">DNI:</label>
+            <div class="col-md-8">
+              <input type="text" name="dni" value="" id="dni" class="form-control" required>
+            </div>
+
+          </div>
+
+          <div class="row form-group">
+            <label for="apellidos_paterno" class="col-form-label col-md-4 font-weight-bold">Apellido Paterno:</label>
+            <div class="col-md-8">
+              <input type="text" name="apellidos_paterno" value="" id="apellidos_paterno" class="form-control" required>
+            </div>
+
+          </div>
+
+          <div class="row form-group">
+            <label for="apellidos_materno" class="col-form-label col-md-4 font-weight-bold">Apellido Materno:</label>
+            <div class="col-md-8">
+              <input type="text" name="apellidos_materno" value="" id="apellidos_materno" class="form-control" required>
+            </div>
+
+          </div>
+
+          <div class="row form-group">
+            <label for="nombres" class="col-form-label col-md-4 font-weight-bold">Nombres:</label>
+            <div class="col-md-8">
+              <input type="text" name="nombres" value="" id="nombres" class="form-control" required>
+            </div>
+
+          </div>
+
+          <div class="row form-group">
+            <label for="email" class="col-form-label col-md-4 font-weight-bold">Email:</label>
+            <div class="col-md-8">
+              <input type="email" name="email" value="" id="email" class="form-control" required>
+            </div>
+
+          </div>
+
+
+
           <div class="row form-group">
             <div class="col-md-12">
 
-              <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+              <button type="submit" class="btn btn-primary btn-block">Agregar Participante</button>
 
             </div>
 
           </div>
 
+
+
+
+          <div>
+
+            <div class="container">
+              <div class="row col-xs-12">
+                <div class="col-xs-12 col-sm-3">
+                  <fieldset class="form-group">
+                    <input type="text" placeholder="DNI" required="">
+                  </fieldset>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <fieldset class="form-group">
+                    <input type="text" id="names" placeholder="Nombres" required="">
+                  </fieldset>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <fieldset class="form-group">
+                    <input type="text" placeholder="Apellido paterno" required="">
+                  </fieldset>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <fieldset class="form-group">
+                    <input type="text" placeholder="Apellido materno" required="">
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="row form-group">
+            <div class="col-md-12">
+
+              <button type="submit" class="btn btn-danger btn-block">Eliminar Participante</button>
+
+            </div>
+
+          </div>
+
+
         </form>
 
-
-        <table class="table table-hover">
-          <thead class="thead-dark">
-            <tr>
-              <th>DNI</th>
-              <th>Ape. Paterno</th>
-              <th>Ape. Materno</th>
-              <th>Nombres</th>
-              <th>Email</th>
-              <th>&nbsp;</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="fila-base">
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
-            </tr>
-            <tr class="">
-                <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td>SADADASD</td>
-              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
-            </tr>
-            <tr class="">
-                <td>SADADASD</td>
-                <td>SADADASD</td>
-                <td>SADADASD</td>
-                <td>SADADASD</td>
-                <td>SADADASD</td>
-              <td class="eliminar"><img alt="Imagen" src="img/eliminar.png"></td>
-            </tr>
-          </tbody>
-        </table>
 
       </div>
     </div>

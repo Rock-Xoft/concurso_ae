@@ -8,6 +8,7 @@ body {
     background: linear-gradient(to right,#5433FF , #20BDFF);
     margin: 0;
     height: 100vh;
+    
   }
 
 
@@ -28,3 +29,32 @@ body {
     
     }
 
+
+
+    input, select, textarea {
+      font-family: CaeciliaLTPro-45Light;
+      font-size: .9rem;
+      color: #53565a;
+      padding: 10px;
+      width: 100%;
+      -webkit-transition: all .2s linear;
+      transition: all .2s linear;
+      border: 1px solid #a9a9a9;
+      background: #fff;
+      
+     }
+
+.marco_tabla{
+
+      flex-basis: 100%;
+      max-width: 100%;
+
+     }
+
+
+input{
+width: 100%;
+  }
+
+
+  
